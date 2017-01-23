@@ -1,0 +1,28 @@
+{
+    "name": "bors/project-dev",
+    "description": "BORS© Framework demo and tests project",
+    "keywords": ["bors", "framework", "tests", "demo"],
+    "homepage": "http://bors.balancer.ru/",
+    "type": "project",
+    "license": "GPLv3",
+    "support": {
+		"issues": "https://bitbucket.org/Balancer/bors-core/issues",
+		"forum": "http://www.balancer.ru/support/viewforum.php?id=60",
+		"source": "https://bitbucket.org/Balancer/bors-core"
+    },
+
+    "minimum-stability": "dev",
+	"prefer-stable": true,
+
+	"repositories": [
+		{ "type": "composer", "url": "https://asset-packagist.org" }
+	],
+
+    "require": {
+        "balancer/bors-dev": "@dev"
+    },
+
+    "require-dev": {
+        "tracy/tracy": "*"
+    }
+}
